@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42C94AF61F4E138000388B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94AF51F4E138000388B46 /* AppDelegate.swift */; };
+		42C94AF81F4E138000388B46 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C94AF71F4E138000388B46 /* GameScene.sks */; };
+		42C94AFA1F4E138000388B46 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42C94AF91F4E138000388B46 /* Actions.sks */; };
+		42C94AFC1F4E138000388B46 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94AFB1F4E138000388B46 /* GameScene.swift */; };
+		42C94AFE1F4E138000388B46 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94AFD1F4E138000388B46 /* GameViewController.swift */; };
+		42C94B011F4E138000388B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C94AFF1F4E138000388B46 /* Main.storyboard */; };
+		42C94B031F4E138000388B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C94B021F4E138000388B46 /* Assets.xcassets */; };
+		42C94B061F4E138000388B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C94B041F4E138000388B46 /* LaunchScreen.storyboard */; };
+		42C94B111F4E138100388B46 /* LearnArabicLetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94B101F4E138100388B46 /* LearnArabicLetterTests.swift */; };
+		42C94B1C1F4E138100388B46 /* LearnArabicLetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94B1B1F4E138100388B46 /* LearnArabicLetterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42C94B0D1F4E138100388B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C94AEA1F4E138000388B46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C94AF11F4E138000388B46;
+			remoteInfo = LearnArabicLetter;
+		};
+		42C94B181F4E138100388B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C94AEA1F4E138000388B46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C94AF11F4E138000388B46;
+			remoteInfo = LearnArabicLetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42C94AF21F4E138000388B46 /* LearnArabicLetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnArabicLetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C94AF51F4E138000388B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42C94AF71F4E138000388B46 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		42C94AF91F4E138000388B46 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		42C94AFB1F4E138000388B46 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		42C94AFD1F4E138000388B46 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		42C94B001F4E138000388B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42C94B021F4E138000388B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42C94B051F4E138000388B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42C94B071F4E138000388B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C94B0C1F4E138100388B46 /* LearnArabicLetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnArabicLetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C94B101F4E138100388B46 /* LearnArabicLetterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnArabicLetterTests.swift; sourceTree = "<group>"; };
+		42C94B121F4E138100388B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C94B171F4E138100388B46 /* LearnArabicLetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnArabicLetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C94B1B1F4E138100388B46 /* LearnArabicLetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnArabicLetterUITests.swift; sourceTree = "<group>"; };
+		42C94B1D1F4E138100388B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C94AEF1F4E138000388B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C94B091F4E138100388B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C94B141F4E138100388B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C94AE91F4E138000388B46 = {
+			isa = PBXGroup;
+			children = (
+				42C94AF41F4E138000388B46 /* LearnArabicLetter */,
+				42C94B0F1F4E138100388B46 /* LearnArabicLetterTests */,
+				42C94B1A1F4E138100388B46 /* LearnArabicLetterUITests */,
+				42C94AF31F4E138000388B46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C94AF31F4E138000388B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C94AF21F4E138000388B46 /* LearnArabicLetter.app */,
+				42C94B0C1F4E138100388B46 /* LearnArabicLetterTests.xctest */,
+				42C94B171F4E138100388B46 /* LearnArabicLetterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C94AF41F4E138000388B46 /* LearnArabicLetter */ = {
+			isa = PBXGroup;
+			children = (
+				42C94AF51F4E138000388B46 /* AppDelegate.swift */,
+				42C94AF71F4E138000388B46 /* GameScene.sks */,
+				42C94AF91F4E138000388B46 /* Actions.sks */,
+				42C94AFB1F4E138000388B46 /* GameScene.swift */,
+				42C94AFD1F4E138000388B46 /* GameViewController.swift */,
+				42C94AFF1F4E138000388B46 /* Main.storyboard */,
+				42C94B021F4E138000388B46 /* Assets.xcassets */,
+				42C94B041F4E138000388B46 /* LaunchScreen.storyboard */,
+				42C94B071F4E138000388B46 /* Info.plist */,
+			);
+			path = LearnArabicLetter;
+			sourceTree = "<group>";
+		};
+		42C94B0F1F4E138100388B46 /* LearnArabicLetterTests */ = {
+			isa = PBXGroup;
+			children = (
+				42C94B101F4E138100388B46 /* LearnArabicLetterTests.swift */,
+				42C94B121F4E138100388B46 /* Info.plist */,
+			);
+			path = LearnArabicLetterTests;
+			sourceTree = "<group>";
+		};
+		42C94B1A1F4E138100388B46 /* LearnArabicLetterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42C94B1B1F4E138100388B46 /* LearnArabicLetterUITests.swift */,
+				42C94B1D1F4E138100388B46 /* Info.plist */,
+			);
+			path = LearnArabicLetterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C94AF11F4E138000388B46 /* LearnArabicLetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C94B201F4E138100388B46 /* Build configuration list for PBXNativeTarget "LearnArabicLetter" */;
+			buildPhases = (
+				42C94AEE1F4E138000388B46 /* Sources */,
+				42C94AEF1F4E138000388B46 /* Frameworks */,
+				42C94AF01F4E138000388B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnArabicLetter;
+			productName = LearnArabicLetter;
+			productReference = 42C94AF21F4E138000388B46 /* LearnArabicLetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42C94B0B1F4E138100388B46 /* LearnArabicLetterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C94B231F4E138100388B46 /* Build configuration list for PBXNativeTarget "LearnArabicLetterTests" */;
+			buildPhases = (
+				42C94B081F4E138100388B46 /* Sources */,
+				42C94B091F4E138100388B46 /* Frameworks */,
+				42C94B0A1F4E138100388B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C94B0E1F4E138100388B46 /* PBXTargetDependency */,
+			);
+			name = LearnArabicLetterTests;
+			productName = LearnArabicLetterTests;
+			productReference = 42C94B0C1F4E138100388B46 /* LearnArabicLetterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42C94B161F4E138100388B46 /* LearnArabicLetterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C94B261F4E138100388B46 /* Build configuration list for PBXNativeTarget "LearnArabicLetterUITests" */;
+			buildPhases = (
+				42C94B131F4E138100388B46 /* Sources */,
+				42C94B141F4E138100388B46 /* Frameworks */,
+				42C94B151F4E138100388B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C94B191F4E138100388B46 /* PBXTargetDependency */,
+			);
+			name = LearnArabicLetterUITests;
+			productName = LearnArabicLetterUITests;
+			productReference = 42C94B171F4E138100388B46 /* LearnArabicLetterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C94AEA1F4E138000388B46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.bethrah;
+				TargetAttributes = {
+					42C94AF11F4E138000388B46 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5R99L98Q6M;
+						ProvisioningStyle = Automatic;
+					};
+					42C94B0B1F4E138100388B46 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5R99L98Q6M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42C94AF11F4E138000388B46;
+					};
+					42C94B161F4E138100388B46 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5R99L98Q6M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42C94AF11F4E138000388B46;
+					};
+				};
+			};
+			buildConfigurationList = 42C94AED1F4E138000388B46 /* Build configuration list for PBXProject "LearnArabicLetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42C94AE91F4E138000388B46;
+			productRefGroup = 42C94AF31F4E138000388B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C94AF11F4E138000388B46 /* LearnArabicLetter */,
+				42C94B0B1F4E138100388B46 /* LearnArabicLetterTests */,
+				42C94B161F4E138100388B46 /* LearnArabicLetterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C94AF01F4E138000388B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C94B011F4E138000388B46 /* Main.storyboard in Resources */,
+				42C94AF81F4E138000388B46 /* GameScene.sks in Resources */,
+				42C94B031F4E138000388B46 /* Assets.xcassets in Resources */,
+				42C94B061F4E138000388B46 /* LaunchScreen.storyboard in Resources */,
+				42C94AFA1F4E138000388B46 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C94B0A1F4E138100388B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C94B151F4E138100388B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C94AEE1F4E138000388B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C94AFC1F4E138000388B46 /* GameScene.swift in Sources */,
+				42C94AFE1F4E138000388B46 /* GameViewController.swift in Sources */,
+				42C94AF61F4E138000388B46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C94B081F4E138100388B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C94B111F4E138100388B46 /* LearnArabicLetterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C94B131F4E138100388B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C94B1C1F4E138100388B46 /* LearnArabicLetterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42C94B0E1F4E138100388B46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C94AF11F4E138000388B46 /* LearnArabicLetter */;
+			targetProxy = 42C94B0D1F4E138100388B46 /* PBXContainerItemProxy */;
+		};
+		42C94B191F4E138100388B46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C94AF11F4E138000388B46 /* LearnArabicLetter */;
+			targetProxy = 42C94B181F4E138100388B46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42C94AFF1F4E138000388B46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C94B001F4E138000388B46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42C94B041F4E138000388B46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C94B051F4E138000388B46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C94B1E1F4E138100388B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42C94B1F1F4E138100388B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42C94B211F4E138100388B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R99L98Q6M;
+				INFOPLIST_FILE = LearnArabicLetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bethrah.LearnArabicLetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42C94B221F4E138100388B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R99L98Q6M;
+				INFOPLIST_FILE = LearnArabicLetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bethrah.LearnArabicLetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42C94B241F4E138100388B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5R99L98Q6M;
+				INFOPLIST_FILE = LearnArabicLetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bethrah.LearnArabicLetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnArabicLetter.app/LearnArabicLetter";
+			};
+			name = Debug;
+		};
+		42C94B251F4E138100388B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5R99L98Q6M;
+				INFOPLIST_FILE = LearnArabicLetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bethrah.LearnArabicLetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnArabicLetter.app/LearnArabicLetter";
+			};
+			name = Release;
+		};
+		42C94B271F4E138100388B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5R99L98Q6M;
+				INFOPLIST_FILE = LearnArabicLetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bethrah.LearnArabicLetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LearnArabicLetter;
+			};
+			name = Debug;
+		};
+		42C94B281F4E138100388B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5R99L98Q6M;
+				INFOPLIST_FILE = LearnArabicLetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bethrah.LearnArabicLetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LearnArabicLetter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C94AED1F4E138000388B46 /* Build configuration list for PBXProject "LearnArabicLetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C94B1E1F4E138100388B46 /* Debug */,
+				42C94B1F1F4E138100388B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C94B201F4E138100388B46 /* Build configuration list for PBXNativeTarget "LearnArabicLetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C94B211F4E138100388B46 /* Debug */,
+				42C94B221F4E138100388B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42C94B231F4E138100388B46 /* Build configuration list for PBXNativeTarget "LearnArabicLetterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C94B241F4E138100388B46 /* Debug */,
+				42C94B251F4E138100388B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42C94B261F4E138100388B46 /* Build configuration list for PBXNativeTarget "LearnArabicLetterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C94B271F4E138100388B46 /* Debug */,
+				42C94B281F4E138100388B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C94AEA1F4E138000388B46 /* Project object */;
+}
